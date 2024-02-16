@@ -3,3 +3,9 @@
 saludos
 
 GitHub es una plataforma de desarrollo colaborativo de software basada en Git. Git es un sistema de control de versiones distribuido que permite a los desarrolladores trabajar en proyectos de software de manera colaborativa, registrando cambios en el código fuente y facilitando la colaboración entre equipos de programadores.
+
+Estos comandos de Git son utilizados para cambiar el nombre de la rama principal (normalmente "master") a "main" y luego empujar los cambios al repositorio remoto en GitHub.
+
+1. `git branch -M main`: Este comando renombra la rama actual a "main". La opción `-M` es una abreviatura de `--move`, que se utiliza para mover o renombrar una rama.
+
+2. `git push -u origin main`: Este comando empuja los cambios locales al repositorio remoto llamado "origin" y establece la rama "main" como la rama predeterminada en el repositorio remoto. La opción `-u` es una abreviatura de `--set-upstream`, que establece la rama local para realizar un seguimiento de la rama remota. Esto significa que en futuros `git push` y `git pull`, Git sabe automáticamente a qué rama remota y local empujar y tirar los cambios.
