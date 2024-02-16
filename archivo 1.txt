@@ -1,1 +1,5 @@
-hola
+¡Hola,Mundo¡
+
+saludos
+
+GitHub es una plataforma de desarrollo colaborativo de software basada en Git. Git es un sistema de control de versiones distribuido que permite a los desarrolladores trabajar en proyectos de software de manera colaborativa, registrando cambios en el código fuente y facilitando la colaboración entre equipos de programadores.
